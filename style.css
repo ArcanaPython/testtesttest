@@ -1,0 +1,41 @@
+.gradient-background {
+    background: linear-gradient(300deg, #2e0466, black, #045e66);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 80%;
+  }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+    background-color: #3a3a3b;
+}
+
+#container {
+    display: flex;
+    height: 15vh;
+    justify-content: right;
+    align-items: center;
+    background-color: #262626;
+    color: white;
+}
+
+#ddi {
+  color: #d4d5d6;
+}
+
+#ddi:hover {
+  background-color: #d4d5d6;
+  color: black;
+}
+
